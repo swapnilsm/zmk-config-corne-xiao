@@ -1,11 +1,11 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <layouts/corne_xiao/6column.dtsi>
 
-&xiao_serial { status = "disabled"; };
+// &xiao_serial { status = "disabled"; };
 
-// &corne_xiao_6col_layout {
-//     transform = <&default_transform>;
-// };
+&corne_xiao_6col_layout {
+    transform = <&default_transform>;
+};
 
 / {
     chosen {
