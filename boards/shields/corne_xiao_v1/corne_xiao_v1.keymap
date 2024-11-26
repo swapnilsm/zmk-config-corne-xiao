@@ -3,16 +3,6 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
-    chosen {
-      /delete-property/     zephyr,console;
-      /delete-property/     zephyr,shell-uart;
-      /delete-property/     zephyr,uart-mcumgr;
-      /delete-property/     zephyr,bt-mon-uart;
-      /delete-property/     zephyr,bt-c2h-uart;
-    };
-};
-
-/ {
     combos {
         compatible = "zmk,combos";
         combo_studio_unlock {
