@@ -14,12 +14,12 @@
 };
 
 / {
+    chosen {
+            zmk,physical-layout = &corne_xiao_5col_layout;
+    };
+
     keymap {
         compatible = "zmk,keymap";
-
-        chosen {
-            zmk,physical-layout = &corne_xiao_5col_layout;
-        };
 
         default_layer {
             display-name = "base";
